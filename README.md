@@ -13,12 +13,12 @@
 1. [Overview](#-overview)  
 2. [Project Files](#-project-files)  
 3. [Dataset Story](#-dataset-story)  
-4. [ASK — Define the Business Task](#-ask--define-the-business-task)  
-5. [PREPARE — Data Source & Credibility](#-prepare--data-source--credibility)  
-6. [PROCESS — Cleaning & Feature Engineering](#-process--cleaning--feature-engineering)  
-7. [ANALYZE — Key Findings](#-analyze--key-findings)  
-8. [SHARE — Visualizations](#-share--visualizations)    
-9. [ACT — Final Recommendations](#-act--final-recommendations)  
+4. [ASK Phase — Define the Business Task](#-ask--define-the-business-task)  
+5. [PREPARE Phase — Data Source & Credibility](#-prepare--data-source--credibility)  
+6. [PROCESS Phase — Cleaning & Feature Engineering](#-process--cleaning--feature-engineering)  
+7. [ANALYZE Phase — Key Findings](#-analyze--key-findings)  
+8. [SHARE Phase — Visualizations](#-share--visualizations)    
+9. [ACT Phase — Final Recommendations](#-act--final-recommendations)  
 
 ---
 
@@ -67,7 +67,7 @@ These engineered features allowed deeper behavioral analysis.
 
 ---
 
-## 🧠 ASK — Define the Business Task
+## 🧠 ASK Phase — Define the Business Task
 
 **Key Question:**  
 > How do annual members and casual riders use Cyclistic bikes differently?
@@ -76,7 +76,7 @@ Cyclistic aims to **convert casual riders into annual members** using targeted m
 
 ---
 
-## 🗄 PREPARE — Data Source & Credibility
+## 🗄 PREPARE Phase — Data Source & Credibility
 
 - Dataset: Divvy Q1 2020 public data  
 - License: Motivate International Inc.  
@@ -86,7 +86,7 @@ Cyclistic aims to **convert casual riders into annual members** using targeted m
 
 ---
 
-## 🧹 PROCESS — Cleaning & Feature Engineering
+## 🧹 PROCESS Phase — Cleaning & Feature Engineering
 
 ### 1. Excel
 - Converted timestamps  
@@ -188,7 +188,7 @@ All SQL outputs are stored in the `Cylistic_analysis_results/` folder.
 
 ---
 
-## 📊 ANALYZE — Key Findings
+## 📊 ANALYZE Phase — Key Findings
 
 ### 1. **Ride Duration**
 - Casual riders have **longer rides** (~388 mins avg)  
@@ -213,7 +213,7 @@ Common casual rider locations:
 
 ---
 
-## 📈 SHARE — Visualizations
+## 📈 SHARE Phase — Visualizations
 
 ## 1. Excel Visualizations
 
@@ -242,7 +242,7 @@ Common casual rider locations:
 
 | 3. Average Ride Length by Day of Week |
 |------------------------------------------------------|
-| ![avg_ride_length_by_week_of_day_R](Cylistic_analysis_results/avg_ride_length_by_week_of_day_R.png) |
+| ![avg_ride_length_by_week_of_day_R](Cylistic_analysis_results/avg_ride_length_by_week_of_day.png) |
 | Highlights variations in ride length across weekdays and weekends for both user types. |
 
 ---
@@ -267,7 +267,7 @@ Common casual rider locations:
 | Lists the most frequently used start stations categorized by rider type. |
 ---
 
-## 🧭 ACT — Final Recommendations
+## 🧭 ACT Phase — Final Recommendations
 
 ### **1️⃣ Target casual riders at leisure-heavy stations**  
 Focus: Millennium Park, Lakefront, Michigan Ave.  
