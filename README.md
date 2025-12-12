@@ -101,40 +101,54 @@ Cyclistic aims to **convert casual riders into annual members** using targeted m
 
 ---
 
-### SQL (MySQL 8.0 Workbench)  
+### SQL (MySQL 8.0 Workbench)
 
-#### **Total Rows Loaded**  
-![total_rows_sql](Cylistic_analysis_results/total_rows_sql.png)  
+| Result | Preview |
+|--------|---------|
 
-#### **Missing Values Check** 
-![missing_values_sql](Cylistic_analysis_results/missing_values_sql.png)  
+| **Total Rows Loaded**  
+*Shows the number of records successfully imported into the SQL table.* |  
+![total_rows_sql](Cylistic_analysis_results/total_rows_sql.png) |
 
-#### **First 10 Rows Preview**  
-![10_rows_sql](Cylistic_analysis_results/10_rows_sql.png)  
+| **Missing Values Check**  
+*Displays the count of null or missing entries across all columns.* |  
+![missing_values_sql](Cylistic_analysis_results/missing_values_sql.png) |
 
-#### **Average Ride Duration (SQL)**  
-![avg_ride_minutes_sql](Cylistic_analysis_results/avg_ride_minutes_sql.png)  
+| **First 10 Rows Preview**  
+*Provides an initial snapshot of how the cleaned dataset looks inside MySQL.* |  
+![10_rows_sql](Cylistic_analysis_results/10_rows_sql.png) |
 
-#### **Maximum Ride Duration**  
-![max_ride_minutes](Cylistic_analysis_results/max_ride_minutes.png)  
+| **Average Ride Duration (SQL)**  
+*Shows the computed mean ride duration for all rides.* |  
+![avg_ride_minutes_sql](Cylistic_analysis_results/avg_ride_minutes_sql.png) |
 
-#### **Ride Length in Seconds & Minutes**  
-![ride_length_and_secs_sql](Cylistic_analysis_results/ride_length_and_secs_sql.png)  
+| **Maximum Ride Duration**  
+*Identifies the longest ride duration recorded in the dataset.* |  
+![max_ride_minutes](Cylistic_analysis_results/max_ride_minutes.png) |
 
-#### **Most Active Day of Week**  
-![hightest_day_of_week_sql](Cylistic_analysis_results/hightest_day_of_week_sql.png)  
+| **Ride Length in Seconds & Minutes**  
+*Displays converted ride-length values for easier aggregation.* |  
+![ride_length_and_secs_sql](Cylistic_analysis_results/ride_length_and_secs_sql.png) |
 
-#### **Avg Ride Duration: Member vs Casual**  
-![member_casual_avg_ride_mints_sql](Cylistic_analysis_results/member_casual_avg_ride_mints_Sql.png)  
+| **Most Active Day of Week**  
+*Reveals the day with the highest ride frequency.* |  
+![hightest_day_of_week_sql](Cylistic_analysis_results/hightest_day_of_week_sql.png) |
 
-#### **Total Rides: Member vs Casual**  
-![member_casual_total_rides_sql](Cylistic_analysis_results/member_casual_total_rides_sql.png)  
+| **Avg Ride Duration: Member vs Casual**  
+*Compares the average ride length between casual users and annual members.* |  
+![member_casual_avg_ride_mints_sql](Cylistic_analysis_results/member_casual_avg_ride_mints_Sql.png) |
 
-#### **Hourly Ride Distribution**  
-![hightest_rides_by_hour_sql](Cylistic_analysis_results/hightest_rides_by_hour_sql.png)  
+| **Total Rides: Member vs Casual**  
+*Shows the number of rides taken by each rider category.* |  
+![member_casual_total_rides_sql](Cylistic_analysis_results/member_casual_total_rides_sql.png) |
 
-#### **Monthly Ride Distribution**  
-![hightest_rides_by_month_sql](Cylistic_analysis_results/hightest_rides_by_month_sql.png)  
+| **Hourly Ride Distribution**  
+*Illustrates peak riding hours across user types.* |  
+![hightest_rides_by_hour_sql](Cylistic_analysis_results/hightest_rides_by_hour_sql.png) |
+
+| **Monthly Ride Distribution**  
+*Shows which month has the highest trip volume.* |  
+![hightest_rides_by_month_sql](Cylistic_analysis_results/hightest_rides_by_month_sql.png) |  
 
 ---
 
