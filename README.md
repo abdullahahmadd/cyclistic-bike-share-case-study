@@ -1,5 +1,5 @@
-# 🚴‍♂️ Cyclistic Bike-Share Case Study — Google Data Analytics Capstone  
-### *Excel • SQL • R | End-to-End Data Analytics Project*
+# 🚴‍♂️ Cyclistic Bike-Share Data Analysis
+### 🎓 Google Data Analytics Specialization - Capstone Project
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=abdullahahmadd.cyclistic-bike-share-case-study)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
