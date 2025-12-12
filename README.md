@@ -269,16 +269,16 @@ Common casual rider locations:
 
 ## 🧭 ACT Phase — Final Recommendations
 
-### **1️⃣ Target casual riders at leisure-heavy stations**  
+### 1. **Target casual riders at leisure-heavy stations**  
 Focus: Millennium Park, Lakefront, Michigan Ave.  
 Use QR codes, app offers, and tourist-focused promotions.
 
-### **2️⃣ Introduce weekend / tourist-friendly membership options**  
+### 2. **Introduce weekend / tourist-friendly membership options**  
 Examples:  
 - **Weekend Unlimited Pass**  
 - **Tourist → Monthly Upgrade Discount**
 
-### **3️⃣ Leverage digital media to convert casual riders**  
+### 3. **Leverage digital media to convert casual riders**  
 Highlight:  
 - Cost savings  
 - Convenience  
