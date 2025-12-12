@@ -9,20 +9,18 @@
 ---
 
 # Table of Contents  
-
-# Table of Contents  
-
-- [📌 Overview](#-overview)  
-- [📂 Project Files](#-project-files)  
-- [🧵 Dataset Story](#-dataset-story)  
-- [⚙️ Tools and Technologies Used](#-tools-and-technologies-used)  
-- [🎯 Skills Demonstrated](#-skills-demonstrated)  
-- [🧠 ASK Phase — Define the Business Task](#-ask-phase--define-the-business-task)  
-- [🗄 PREPARE Phase — Data Source and Credibility](#-prepare-phase--data-source-and-credibility)  
-- [🧹 PROCESS Phase — Cleaning and Feature Engineering](#-process-phase--cleaning-and-feature-engineering)  
-- [📊 ANALYZE Phase — Key Findings](#-analyze-phase--key-findings)  
-- [📈 SHARE Phase — Visualizations](#-share-phase--visualizations)  
-- [🧭 ACT Phase — Final Recommendations](#-act-phase--final-recommendations)
+  
+1. [Overview](#-overview)  
+2. [Project Files](#-project-files)  
+3. [Dataset Story](#-dataset-story)  
+4. [Tools and Technologies Used](#-tools-and-technologies-used)  
+5. [Skills Demonstrated](#-skills-demonstrated)  
+6. [ASK Phase — Define the Business Task](#-ask-phase--define-the-business-task)  
+7. [PREPARE Phase — Data Source and Credibility](#-prepare-phase--data-source-and-credibility)  
+8. [PROCESS Phase — Cleaning and Feature Engineering](#-process-phase--cleaning-and-feature-engineering)  
+9. [ANALYZE Phase — Key Findings](#-analyze-phase--key-findings)  
+10. [SHARE Phase — Visualizations](#-share-phase--visualizations)  
+11. [ACT Phase — Final Recommendations](#-act-phase--final-recommendations)
 
 ---
 
