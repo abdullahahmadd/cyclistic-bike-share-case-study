@@ -16,13 +16,8 @@
 4. [ASK — Define the Business Task](#-ask--define-the-business-task)  
 5. [PREPARE — Data Source & Credibility](#-prepare--data-source--credibility)  
 6. [PROCESS — Cleaning & Feature Engineering](#-process--cleaning--feature-engineering)  
-   - [Excel Cleaning](#excel)  
-   - [SQL Cleaning & Outputs](#sql-mysql-80-workbench)  
-   - [R Cleaning](#r-tidyverse--lubridate)  
 7. [ANALYZE — Key Findings](#-analyze--key-findings)  
-8. [SHARE — Visualizations](#-share--visualizations)  
-   - [Excel Dashboard](#excel-dashboard)  
-   - [R Visualizations](#r-visualizations-ggplot2)  
+8. [SHARE — Visualizations](#-share--visualizations)    
 9. [ACT — Final Recommendations](#-act--final-recommendations)  
 
 ---
@@ -93,7 +88,7 @@ Cyclistic aims to **convert casual riders into annual members** using targeted m
 
 ## 🧹 PROCESS — Cleaning & Feature Engineering
 
-### Excel
+### 1. Excel
 - Converted timestamps  
 - Calculated ride length  
 - Added weekday, hour, and month columns  
@@ -101,7 +96,7 @@ Cyclistic aims to **convert casual riders into annual members** using targeted m
 
 ---
 
-### SQL (MySQL 8.0 Workbench)
+### 2. SQL (MySQL 8.0 Workbench)
   
 All SQL outputs are stored in the `Cylistic_analysis_results/` folder.
 
@@ -183,7 +178,7 @@ All SQL outputs are stored in the `Cylistic_analysis_results/` folder.
 
 ---
 
-### R (tidyverse + lubridate)
+### 3. R (tidyverse + lubridate)
 - Cleaned names  
 - Parsed timestamps  
 - Calculated duration  
@@ -195,22 +190,22 @@ All SQL outputs are stored in the `Cylistic_analysis_results/` folder.
 
 ## 📊 ANALYZE — Key Findings
 
-### **Ride Duration**
+### 1. **Ride Duration**
 - Casual riders have **longer rides** (~388 mins avg)  
 - Members take **shorter, more consistent rides** (~279 mins avg)
 
-### **Usage Volume**
+### 2. **Usage Volume**
 - Members contribute **over 90% of all rides**
 
-### **Day Patterns**
+### 3. **Day Patterns**
 - Casuals: **mid-week + weekend peaks**  
 - Members: **weekday stable usage (commuting)**  
 
-### **Hourly Patterns**
+### 4. **Hourly Patterns**
 - Members peak: **7–9 AM** & **4–6 PM**  
 - Casuals: **mid-day & afternoon**  
 
-### **Geographic Hotspots**
+### 5. **Geographic Hotspots**
 Common casual rider locations:  
 - Michigan Ave & Washington St  
 - Millennium Park  
@@ -219,7 +214,9 @@ Common casual rider locations:
 ---
 
 ## 📈 SHARE — Visualizations
-  
+
+## 1. Excel Visualizations
+
 | Excel Dashboard |
 |----------------|
 | ![excel_dashboard](Cylistic_analysis_results/excel_dashboard.png) |
@@ -227,7 +224,7 @@ Common casual rider locations:
 
 ---
 
-## R Visualizations
+## 2. R Visualizations
 
 | 1. Ride Length Summary |
 |--------------------------------------|
