@@ -10,7 +10,7 @@
 
 # Table of Contents  
 
-- [1. Overview](#1-overview)  
+- [1. 📌 Overview](#1-overview)  
 - [2. Project Files](#2-project-files)  
 - [3. Dataset Story](#3-dataset-story)  
 - [4. Tools and Technologies Used](#4-tools-and-technologies-used)  
