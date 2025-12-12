@@ -10,17 +10,19 @@
 
 # Table of Contents  
 
-1. [Overview](#-overview)  
-2. [Project Files](#-project-files)  
-3. [Dataset Story](#-dataset-story)  
-4. [Tools & Technologies Used](#-tools--technologies-used)  
-5. [Skills Demonstrated](#-skills-demonstrated)  
-6. [ASK Phase — Define the Business Task](#-ask-phase--define-the-business-task)  
-7. [PREPARE Phase — Data Source & Credibility](#-prepare-phase--data-source--credibility)  
-8. [PROCESS Phase — Cleaning & Feature Engineering](#-process-phase--cleaning--feature-engineering)  
-9. [ANALYZE Phase — Key Findings](#-analyze-phase--key-findings)  
-10. [SHARE Phase — Visualizations](#-share-phase--visualizations)    
-11. [ACT Phase — Final Recommendations](#-act-phase--final-recommendations) 
+# Table of Contents  
+
+1. [Overview](#overview)  
+2. [Project Files](#1-project-files)  
+3. [Dataset Story](#2-dataset-story)  
+4. [Tools & Technologies Used](#3-tools--technologies-used)  
+5. [Skills Demonstrated](#4-skills-demonstrated)  
+6. [ASK Phase — Define the Business Task](#5-ask-phase--define-the-business-task)  
+7. [PREPARE Phase — Data Source & Credibility](#6-prepare-phase--data-source--credibility)  
+8. [PROCESS Phase — Cleaning & Feature Engineering](#7-process-phase--cleaning--feature-engineering)  
+9. [ANALYZE Phase — Key Findings](#8-analyze-phase--key-findings)  
+10. [SHARE Phase — Visualizations](#9-share-phase--visualizations)    
+11. [ACT Phase — Final Recommendations](#10-act-phase--final-recommendations)  
 
 ---
 
@@ -38,7 +40,7 @@ Work was performed in **Excel**, **MySQL**, and **RStudio (tidyverse, lubridate,
 
 ---
 
-## 📂 Project Files
+## 1. 📂 Project Files
 
 | File Name | Description |
 |-----------|-------------|
@@ -49,7 +51,7 @@ Work was performed in **Excel**, **MySQL**, and **RStudio (tidyverse, lubridate,
 
 ---
 
-## 🧵 Dataset Story
+## 2. 🧵 Dataset Story
 
 ### **Original Attributes (Raw Dataset)**
 - `ride_id`, `rideable_type`  
@@ -69,7 +71,7 @@ These engineered features allowed deeper behavioral analysis.
 
 ---
 
-## ⚙️ Tools & Technologies Used
+## 3. ⚙️ Tools & Technologies Used
 
 - **Microsoft Excel** – preprocessing, feature engineering, pivot tables, dashboards  
 - **MySQL 8.0 Workbench** – data cleaning, datetime parsing, SQL aggregations  
@@ -79,7 +81,7 @@ These engineered features allowed deeper behavioral analysis.
 
 ---
 
-## 🎯 Skills Demonstrated
+## 4. 🎯 Skills Demonstrated
 
 - Data Cleaning & Preparation  
 - Feature Engineering  
@@ -91,7 +93,7 @@ These engineered features allowed deeper behavioral analysis.
 
 ---
 
-## 🧠 ASK Phase — Define the Business Task
+## 5. 🧠 ASK Phase — Define the Business Task
 
 **Key Question:**  
 > How do annual members and casual riders use Cyclistic bikes differently?
@@ -100,7 +102,7 @@ Cyclistic aims to **convert casual riders into annual members** using targeted m
 
 ---
 
-## 🗄 PREPARE Phase — Data Source & Credibility
+## 6. 🗄 PREPARE Phase — Data Source & Credibility
 
 - Dataset: Divvy Q1 2020 public data  
 - License: Motivate International Inc.  
@@ -110,9 +112,9 @@ Cyclistic aims to **convert casual riders into annual members** using targeted m
 
 ---
 
-## 🧹 PROCESS Phase — Cleaning & Feature Engineering
+## 7. 🧹 PROCESS Phase — Cleaning & Feature Engineering
 
-### 1. Excel
+### I. Excel
 - Converted timestamps  
 - Calculated ride length  
 - Added weekday, hour, and month columns  
@@ -120,7 +122,7 @@ Cyclistic aims to **convert casual riders into annual members** using targeted m
 
 ---
 
-### 2. SQL (MySQL 8.0 Workbench)
+### II. SQL (MySQL 8.0 Workbench)
   
 All SQL outputs are stored in the `Cylistic_analysis_results/` folder.
 
@@ -202,7 +204,7 @@ All SQL outputs are stored in the `Cylistic_analysis_results/` folder.
 
 ---
 
-### 3. R (tidyverse + lubridate)
+### III. R (tidyverse + lubridate)
 - Cleaned names  
 - Parsed timestamps  
 - Calculated duration  
@@ -212,24 +214,24 @@ All SQL outputs are stored in the `Cylistic_analysis_results/` folder.
 
 ---
 
-## 📊 ANALYZE Phase — Key Findings
+## 8. 📊 ANALYZE Phase — Key Findings
 
-### 1. **Ride Duration**
+### I. **Ride Duration**
 - Casual riders have **longer rides** (~388 mins avg)  
 - Members take **shorter, more consistent rides** (~279 mins avg)
 
-### 2. **Usage Volume**
+### II. **Usage Volume**
 - Members contribute **over 90% of all rides**
 
-### 3. **Day Patterns**
+### III. **Day Patterns**
 - Casuals: **mid-week + weekend peaks**  
 - Members: **weekday stable usage (commuting)**  
 
-### 4. **Hourly Patterns**
+### IV. **Hourly Patterns**
 - Members peak: **7–9 AM** & **4–6 PM**  
 - Casuals: **mid-day & afternoon**  
 
-### 5. **Geographic Hotspots**
+### V. **Geographic Hotspots**
 Common casual rider locations:  
 - Michigan Ave & Washington St  
 - Millennium Park  
@@ -237,9 +239,9 @@ Common casual rider locations:
 
 ---
 
-## 📈 SHARE Phase — Visualizations
+## 9. 📈 SHARE Phase — Visualizations
 
-## 1. Excel Visualizations
+## I. Excel Visualizations
 
 | Excel Dashboard |
 |----------------|
@@ -248,7 +250,7 @@ Common casual rider locations:
 
 ---
 
-## 2. R Visualizations
+## II. R Visualizations
 
 | 1. Ride Length Summary |
 |--------------------------------------|
@@ -291,18 +293,18 @@ Common casual rider locations:
 | Lists the most frequently used start stations categorized by rider type. |
 ---
 
-## 🧭 ACT Phase — Final Recommendations
+## 10. 🧭 ACT Phase — Final Recommendations
 
-### 1. **Target casual riders at leisure-heavy stations**  
+### I. **Target casual riders at leisure-heavy stations**  
 Focus: Millennium Park, Lakefront, Michigan Ave.  
 Use QR codes, app offers, and tourist-focused promotions.
 
-### 2. **Introduce weekend / tourist-friendly membership options**  
+### II. **Introduce weekend / tourist-friendly membership options**  
 Examples:  
 - **Weekend Unlimited Pass**  
 - **Tourist → Monthly Upgrade Discount**
 
-### 3. **Leverage digital media to convert casual riders**  
+### III. **Leverage digital media to convert casual riders**  
 Highlight:  
 - Cost savings  
 - Convenience  
