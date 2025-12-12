@@ -219,39 +219,55 @@ Common casual rider locations:
 ---
 
 ## 📈 SHARE — Visualizations
-
-### Excel Dashboard  
-![excel_dashboard](Cylistic_analysis_results/excel_dashboard.png)  
-**Dashboard summarizing KPIs, ride distribution, and user breakdown.**
+  
+| Excel Dashboard |
+|----------------|
+| ![excel_dashboard](Cylistic_analysis_results/excel_dashboard.png) |
+| Provides an overview of key KPIs, ride distribution trends, and user-type comparisons. |
 
 ---
 
-## R Visualizations (ggplot2)
+## R Visualizations
 
-#### Ride Length Summary  
-![ride_length_summary_R](Cylistic_analysis_results/ride_length_summary_R.png)  
-**Displays spread and distribution of trip durations.**
+| 1. Ride Length Summary |
+|--------------------------------------|
+| ![ride_length_summary_R](Cylistic_analysis_results/ride_length_summary_R.png) |
+| Shows the overall spread and distribution of ride durations across all trips. |
 
-#### Average Ride Length by User Type  
-![avg_ride_length_R](Cylistic_analysis_results/avg_ride_length_R.png)  
-**Casual riders take significantly longer rides.**
+---
 
-#### Average Ride Length by Day of Week
-![avg_ride_length_by_week_of_day_R](Cylistic_analysis_results/avg_ride_length_R.png)  
-**Highlights weekday vs weekend differences.**
+| 2. Average Ride Length by User Type |
+|----------------------------------------------------|
+| ![avg_ride_length_R](Cylistic_analysis_results/avg_ride_length_R.png) |
+| Demonstrates that casual riders take significantly longer rides compared to members. |
 
-#### Number of Rides by Day  
-![number_of_rides_by_day_R](Cylistic_analysis_results/number_of_rides_by_day_R.png)  
-**Shows daily ride volume distribution.**
+---
 
-#### Hourly Usage Pattern by User Type  
-![hourly_usage_pattern_by_user_type_R](Cylistic_analysis_results/hourly_usage_pattern_by_user_type_R.png)  
-**Shows commuting vs leisure hour patterns.**
+| 3. Average Ride Length by Day of Week |
+|------------------------------------------------------|
+| ![avg_ride_length_by_week_of_day_R](Cylistic_analysis_results/avg_ride_length_by_week_of_day_R.png) |
+| Highlights variations in ride length across weekdays and weekends for both user types. |
 
-#### Top Start Stations by User Type  
-![top_start_stations_by_user_type_R](Cylistic_analysis_results/top_start_stations_by_user_type_R.png)  
-**Lists most frequently used start stations.**
+---
 
+| 4. Number of Rides by Day |
+|------------------------------------------|
+| ![number_of_rides_by_day_R](Cylistic_analysis_results/number_of_rides_by_day_R.png) |
+| Displays total ride volume for each day of the week. |
+
+---
+
+| 5. Hourly Usage Pattern by User Type |
+|-----------------------------------------------------|
+| ![hourly_usage_pattern_by_user_type_R](Cylistic_analysis_results/hourly_usage_pattern_by_user_type_R.png) |
+| Shows differing peak hours for members (commuting) and casual riders (leisure). |
+
+---
+
+| 6. Top Start Stations by User Type |
+|---------------------------------------------------|
+| ![top_start_stations_by_user_type_R](Cylistic_analysis_results/top_start_stations_by_user_type_R.png) |
+| Lists the most frequently used start stations categorized by rider type. |
 ---
 
 ## 🧭 ACT — Final Recommendations
