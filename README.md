@@ -8,21 +8,22 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ---
 
-# 📑 Table of Contents  
-1. [📌 Overview](#-overview)  
-2. [📂 Project Files](#-project-files)  
-3. [🧵 Dataset Story](#-dataset-story)  
-4. [🧠 ASK — Define the Business Task](#-ask--define-the-business-task)  
-5. [🗄 PREPARE — Data Source & Credibility](#-prepare--data-source--credibility)  
-6. [🧹 PROCESS — Cleaning & Feature Engineering](#-process--cleaning--feature-engineering)  
+# Table of Contents  
+
+1. [Overview](#-overview)  
+2. [Project Files](#-project-files)  
+3. [Dataset Story](#-dataset-story)  
+4. [ASK — Define the Business Task](#-ask--define-the-business-task)  
+5. [PREPARE — Data Source & Credibility](#-prepare--data-source--credibility)  
+6. [PROCESS — Cleaning & Feature Engineering](#-process--cleaning--feature-engineering)  
    - [Excel Cleaning](#excel)  
    - [SQL Cleaning & Outputs](#sql-mysql-80-workbench)  
    - [R Cleaning](#r-tidyverse--lubridate)  
-7. [📊 ANALYZE — Key Findings](#-analyze--key-findings)  
-8. [📈 SHARE — Visualizations](#-share--visualizations)  
+7. [ANALYZE — Key Findings](#-analyze--key-findings)  
+8. [SHARE — Visualizations](#-share--visualizations)  
    - [Excel Dashboard](#excel-dashboard)  
    - [R Visualizations](#r-visualizations-ggplot2)  
-9. [🧭 ACT — Final Recommendations](#-act--final-recommendations)  
+9. [ACT — Final Recommendations](#-act--final-recommendations)  
 
 ---
 
