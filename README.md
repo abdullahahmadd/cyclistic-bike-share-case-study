@@ -10,7 +10,7 @@
 
 # Table of Contents  
 
-- [1. Overview](#-1-overview)  
+- [📌 Overview](#-overview)  
 - [2. Project Files](#2-project-files)  
 - [3. Dataset Story](#3-dataset-story)  
 - [4. Tools and Technologies Used](#4-tools-and-technologies-used)  
@@ -24,7 +24,7 @@
 
 ---
 
-## 1. 📌 Overview
+## 📌 Overview
 
 This project analyzes data from the **Cyclistic Divvy Q1 2020 bike-share dataset**, originally containing over **300,000 rows**.  
 To ensure smooth performance across tools, the dataset was reduced to **8,036 rows** while preserving distribution and patterns.
